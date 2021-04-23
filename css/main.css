@@ -1,0 +1,38 @@
+.navbar-brand img {
+  width: 50px;
+  border-radius: 80%;
+}
+
+.navbar .nav-item .nav-link {
+  color: #fff;
+}
+
+.main-header {
+  position: relative;
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  min-height: 600px;
+}
+
+.background-overlay {
+  position: absolute;
+  background: rgba(150, 60, 150, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  max-height: 600px;
+}
+
+.carousel .carousel-inner .carousel-control-prev .carousel-control-next {
+  height: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+  .img-fluid {
+    display: none;
+  }
+}
