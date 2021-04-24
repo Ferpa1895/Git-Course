@@ -36,3 +36,7 @@
     display: none;
   }
 }
+
+.card img {
+  min-height: 400;
+}
