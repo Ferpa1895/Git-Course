@@ -40,3 +40,7 @@
 .card img {
   min-height: 400;
 }
+.section-service {
+  background: url(../img/fondo.jpg) no-repeat;
+  background-size: cover;
+}
